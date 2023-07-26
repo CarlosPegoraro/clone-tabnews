@@ -1,26 +1,15 @@
-NVM é o sistema de gerenciador de versoes do node
+Assuntos grifados: 
+    -> NVM é o sistema de gerenciador de versoes do node
+    -> O arquivo .nvmrc é o arquivo que serve como colinha para indicar a versao do node
+    -> O package.json é o manifesto do nosso projeto, é onde fica salva a versao dos principais itens e dependencias do nosso projeto
+    -> Next.js é as paredes do seu projeto, é quem lida com o mundo exterior e com a parte de rotas
+        -> Ele cria rotas com os arquivos dentro da pasta pages
+            -> o nome do arquivo que tiver .js ou .ts se torna o nome da rota automaticamente
+    -> O git usa um sistema que quando voce altera um arquivo, ele salva uma nova versao dela em um novo blob, mas quando o arquivo nao é modificado, ele somente busca o blob antigo
 
-O arquivo .nvmrc é o arquivo que serve como colinha para indicar a versao do node
-
-O package.json é o manifesto do nosso projeto, é onde fica salva a versao dos principais itens e dependencias do nosso projeto
-
-Next.js é as paredes do seu projeto, é quem lida com o mundo exterior e com a parte de rotas
-    -> Ele cria rotas com os arquivos dentro da pasta pages
-        -> o nome do arquivo que tiver .js ou .ts se torna o nome da rota automaticamente
-
-LInk do desafio para depois- https://curso.dev/web/desafio-encerramento
-
-Versionamneto centralizado - O repositorio guarda o codigo fonte e os devs alugam aquele arquivo, utilizando o sistema d echeckout quando pegam o arquivo e checkin que é quando devolvem o arquivo. esse metodo impede de ter 2 pessoas trabalhando no mesmo arquivo
-
-Versionamneto distribuido - As mesmas pessoas podem mexer no mesmo arquivo simulteamente, e quando acontecem mudancas que podem afetar o codigo da outra pessoa, deve ser feito uma manutencao manual do codigo
-
-Delta enconding - Salva apenas a diff(diferencia) entre duas versocoes = tem que caminha por todas as versoes do codigo, o que o torna lento
-
-bobl - Binary Large OBject = Sao as fotos que o git salva do seu repositorio
-
-O git usa um sistema que quando voce altera um arquivo, ele salva uma nova versao dela em um novo blob, mas quando o arquivo nao é modificado, ele somente busca o blob antigo
-
-Log - significa registro assim como vlog seguinifica resgitro em video
+Sistema de versionamento:
+    -> Versionamneto centralizado - O repositorio guarda o codigo fonte e os devs alugam aquele arquivo, utilizando o sistema d echeckout quando pegam o arquivo e checkin que é quando devolvem o arquivo. esse metodo impede de ter 2 pessoas trabalhando no mesmo arquivo
+    -> Versionamneto distribuido - As mesmas pessoas podem mexer no mesmo arquivo simulteamente, e quando acontecem mudancas que podem afetar o codigo da outra pessoa, deve ser feito uma manutencao manual do codigo
 
 Estados de um arquivo:
     -> Modified - Quando o arquivo ja existente é modificado
@@ -36,8 +25,57 @@ COmandos git:
     -> add - Ele sobe o arquivo para o estado de Staged
     -> commit - commita todos os arquivos que estiverem no estado de staged
         -> --amend - emenda o novo commit com o ultimo commit
+        -> -m - escreve a mensagem usando "Mensagem "
     -> diff - mostra as diferencias entre os commits
     -> push - empurra os commits lovais para o repositorio online = upload
+        -> --force - para obrigar o seu commit subir
     -> pull - puxa os commits do repositorio online = download
 
-Working directory - Area de trabalho atual
+
+Modelos de producao:
+    -> Organico - Passa por cada etapa do projeto, indo passo a passo, de maneira natural. Indicado para novas situacoes
+    -> Impressora 3D - Cria as coisas de maneira mais mecanica, camada por camada. Indicado para situacoes que voce ja conhece
+
+Como ver o mundo:
+    -> Moral - Tentar ver as coisas da forma mais positiva possivel, mesmo quando for pessima a situacao
+    -> Pratica - "One man's trash is another man's treasure"
+
+Metodologias de Planejamento:
+    -> Planeja muito, executa pouco
+    -> Planeja pouco, executa muito
+    -> Niveis de planejamento:
+        * Custo de producao(CP) - quanto custa de energia para fazer tal acao
+        * Tempo de aquecimento(TA) - Quanto tempo leva para poder ver o que esta sendo feito
+        -> 1: ser lembrado individualmente - Voce ja sabe o que fazer, mas precisa ser relembrado do caminho certo para manter o foco
+            -> CP: baixo ; TA: Baixo
+            -> Exemplo: Anotar numa folha de papel os seus compromissos e suas metas
+        -> 2:ser lembra em grupo - relembrar um grupo de pessoas do que precisa ser feito
+            -> CP: baixo ; TA: Baixo
+            -> Exemplo: Anotar em algum lugar pro grupo de pessoas poder ver o que ta acontecendo
+        -> 3: ganhar conhecimento - Marcar em um espaco virtual varias informacoes
+            -> CP: Medio ; TA: Medio
+            -> Exemplo: Github issues e Trello
+        -> 4: gerar metricas - Gerar e calcular as metricas da sua equipe e definir metas
+            -> CP: Medio ; TA: Medio
+            -> Exemplo: Marcar em um espaco virtual varias informacoes. Github issues e Trello
+
+Github issues:
+    -> Sistema para indentificar problemas ou marcar tarefas dentro de um repositorio
+    -> Milestone - Pedra grande que precisa ser marrretada
+    -> Issue - Pedrinha pronta pra trabalhar
+
+Como a Dopamina Funciona:
+    -> Primeiro estagio - Inicio: Quando o cerebro ve a oportunidade de fazer algo que pode te satisfazer
+    -> Segundo estagio - Progresso: Quando as coisas comecam a dar certo e o seu cerebro te impulsiona mais ainda
+    -> Terceiro Estagio - Fim: QUando tudo da cereto e voce quer mais daquilo 
+
+Termos importantes:
+    -> Delta enconding - Salva apenas a diff(diferencia) entre duas versocoes = tem que caminha por todas as versoes do codigo, o que o torna lento
+    -> bobl - Binary Large OBject = Sao as fotos que o git salva do seu repositorio
+    -> Working directory - Area de trabalho atual
+    -> Over engineering - Programar algo simples como se fosse algo complexo
+    -> Feature creep - Sobrecarregar o sistema com coisas desnessessarias
+    -> Cerificacao PCI - Certificacao responsavel para armazenar dados de cartao de creditos 
+
+Links Importantes:
+    -> Link do desafio para depois- https://curso.dev/web/desafio-encerramento
