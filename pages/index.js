@@ -1,9 +1,18 @@
 function Home() {
   return (
-    <h1>
-      Oi minha Rosa 🌹 Eu amo muito você ❤️ Se você me ama, me manda uma
-      mensagem assim "Arroz é muito bom, meu trevo"
-    </h1>
+    <div>
+      <h1>Feliz 42 anos pra mãe mais fantástica desse mundoooo!!!!! </h1>
+
+      <p> 
+
+        Eu amo tanto você e não tenho palavras pra dizer o quão especial você eh pra mim!!! Minha companheira de séries, minha confidente, minha melhor amiga. Você merece tudo de bom nessa vida, e com toda certeza do mundo vai ter muitoooooo sucesso esse ano e vai realizar todas as suas metas, e eu vou estar aqui sempre pra te ajudar!! <br/>
+
+        Eu amo muitoooooooo você mãe, você eh a melhor que alguém poderia desejar ter!!!!!<br/>
+
+        Eu amo muitoooooooo você!!!!!! <br/>
+      </p>
+    </div>
+    
   );
 }
 
