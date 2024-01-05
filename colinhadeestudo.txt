@@ -1,4 +1,4 @@
-Assuntos grifados: 
+Assuntos grifados:
     -> NVM é o sistema de gerenciador de versoes do node
     -> O arquivo .nvmrc é o arquivo que serve como colinha para indicar a versao do node
     -> O package.json é o manifesto do nosso projeto, é onde fica salva a versao dos principais itens e dependencias do nosso projeto
@@ -15,7 +15,7 @@ Estados de um arquivo:
     -> Modified - Quando o arquivo ja existente é modificado
     -> Staged - QUando os arquivos quew voce quer fazer o commit ficam prontos para serem comitados
     -> Commit - Quando o arquivo é salvo no no repositorio
-    -> Untracked - Quando os arquivos nunca foram commitados 
+    -> Untracked - Quando os arquivos nunca foram commitados
 
 COmandos git:
     -> Log - Mostra todos os commits daquele repositorio
@@ -67,7 +67,12 @@ Github issues:
 Como a Dopamina Funciona:
     -> Primeiro estagio - Inicio: Quando o cerebro ve a oportunidade de fazer algo que pode te satisfazer
     -> Segundo estagio - Progresso: Quando as coisas comecam a dar certo e o seu cerebro te impulsiona mais ainda
-    -> Terceiro Estagio - Fim: QUando tudo da cereto e voce quer mais daquilo 
+    -> Terceiro Estagio - Fim: QUando tudo da cereto e voce quer mais daquilo
+
+Arquitetura de Software:
+  -> Prefira códigos simples e escalaveis do que criar logo de inicio algo complexo e que vai precisar gastar muito tempo arrumando
+  -> Escolha criar um software que sua principal variavel eh ele ser modificavel, isso torna a manutenção futura muito mais facil
+  
 
 Termos importantes:
     -> Delta enconding - Salva apenas a diff(diferencia) entre duas versocoes = tem que caminha por todas as versoes do codigo, o que o torna lento
@@ -75,7 +80,8 @@ Termos importantes:
     -> Working directory - Area de trabalho atual
     -> Over engineering - Programar algo simples como se fosse algo complexo
     -> Feature creep - Sobrecarregar o sistema com coisas desnessessarias
-    -> Cerificacao PCI - Certificacao responsavel para armazenar dados de cartao de creditos 
+    -> Cerificacao PCI - Certificacao responsavel para armazenar dados de cartao de creditos
+    -> SLA - Service Level Agrrement
 
 Links Importantes:
     -> Link do desafio para depois- https://curso.dev/web/desafio-encerramento
