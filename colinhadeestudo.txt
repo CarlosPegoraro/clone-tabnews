@@ -21,7 +21,7 @@ COmandos git:
     -> Log - Mostra todos os commits daquele repositorio
         -> --stat - mostra o que foi mudado em cada commit
         -> --oneline - mostra as informacoes de forma compactada
-    -> status - mostra todas as diferencias desde o ultimo commit com o codigo atual
+    -> index - mostra todas as diferencias desde o ultimo commit com o codigo atual
     -> add - Ele sobe o arquivo para o estado de Staged
     -> commit - commita todos os arquivos que estiverem no estado de staged
         -> --amend - emenda o novo commit com o ultimo commit
