@@ -16,9 +16,6 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      # O PostgreSQL deste Compose não possui TLS configurado por padrão.
-      # Defina como true somente ao usar um banco que aceite conexões SSL.
-      POSTGRES_SSL: ${POSTGRES_SSL:-false}
 
     depends_on:
       database:
